@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StartPageController">
+   <children>
+      <ImageView fitHeight="338.0" fitWidth="353.0" layoutY="-48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@THLogoV2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="tonerLookup" layoutX="247.0" layoutY="237.0" mnemonicParsing="false" text="Lookup Toner" />
+      <Button fx:id="adminLogin" layoutX="465.0" layoutY="40.0" mnemonicParsing="false" text="Admin Login" />
+      <Label fx:id="label" layoutX="223.0" layoutY="145.0" text="Enter Printer Asset Tag:" />
+      <TextField fx:id="textField" layoutX="215.0" layoutY="174.0" promptText="Enter asset tag here" />
+   </children>
+</AnchorPane>
